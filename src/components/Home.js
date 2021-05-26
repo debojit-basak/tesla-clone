@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from 'styled-components'
+import styled from 'styled-components'
 import Section from './Section'
 
 function Home() {
@@ -53,6 +53,6 @@ function Home() {
 
 export default Home
 
-const Container = styles.div`
+const Container = styled.div`
     height: 100vh;
 `
